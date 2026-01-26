@@ -1,0 +1,23 @@
+ [build-system]
+ requires = ["setuptools>=68"]
+ build-backend = "setuptools.build_meta"
+ 
+ [project]
+ name = "skywatch-policy-engine"
+ version = "0.1.0"
+ description = "SkyWatch Policy-as-Code Analysis Engine (Policy Logic)"
+ requires-python = ">=3.11"
+ readme = "README.md"
+ license = { text = "UNLICENSED" }
+ authors = [
+   { name = "SkyWatch Team" }
+ ]
+ 
+ [project.scripts]
+ skywatch-eval = "skywatch_policy_engine.cli:main"
+ 
+ [tool.setuptools]
+ package-dir = {"" = "src"}
+ 
+ [tool.setuptools.packages.find]
+ where = ["src"]
