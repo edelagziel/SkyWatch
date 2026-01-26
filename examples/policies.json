@@ -1,0 +1,8 @@
+ {
+   "rules": [
+     { "rule_id": "S3_ENCRYPTION_DISABLED", "enabled": true },
+     { "rule_id": "S3_PUBLIC_ACL", "enabled": true },
+     { "rule_id": "S3_PUBLIC_POLICY", "enabled": true },
+     { "rule_id": "S3_TLS_NOT_ENFORCED", "enabled": true }
+   ]
+ }
